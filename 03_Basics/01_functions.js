@@ -68,3 +68,11 @@ function returnSecondValue(getArray){
 
 // console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 400, 500, 1000]));
+
+function toCelsius(fahrenheit) {
+    return (5/9) * (fahrenheit-32);
+  }
+  
+  let value = toCelsius(77);
+  console.log(value);
+  
