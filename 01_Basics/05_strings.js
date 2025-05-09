@@ -33,3 +33,23 @@ console.log(url.replace('%20', '-'))
 console.log(url.includes('sundar'))
 
 console.log(gameName.split('-'));
+
+let text = "   Hello World!   ";
+console.log(text.trim());
+console.log(text.trimStart());
+console.log(text.trimEnd());
+
+let text1 = "Hello World!";
+console.log(text1.repeat(2));
+
+let text2 = "Please visit Microsoft!";
+console.log(text2);
+
+let newText = text2.replace("Microsoft", "W3Schools");
+console.log(newText);
+
+let text3 = "Please visit Microsoft!";
+let newText3 = text.replace(/MICROSOFT/i, "W3Schools");
+console.log(newText3);
+
+console.log(text3.split(','));
